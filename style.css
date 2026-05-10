@@ -297,66 +297,36 @@ footer {
 }
 
 @media (max-width: 768px) {
+.header {
+  padding: 10px 0;
+}
 
-  .navbar {
-    flex-direction: column;
-    padding: 15px;
-  }
+.navbar {
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+}
 
-  .logo img {
-    height: 120px;
-  }
+.logo img {
+  height: 110px;
+}
 
-  .nav-links {
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 10px;
-    text-align: center;
-  }
+.nav-links {
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 5px;
+}
 
-  .hero {
-    height: 80vh;
-    padding: 20px;
-  }
+.hero {
+  height: 60vh;
+  margin-top: 260px;
+}
 
-  .hero-content h1 {
-    font-size: 42px;
-  }
+.hero-content h1 {
+  font-size: 34px;
+}
 
-  .hero-content p {
-    font-size: 20px;
-  }
-
-  .btn {
-    padding: 12px 25px;
-    font-size: 16px;
-  }
-
-  .cards {
-    flex-direction: column;
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .about-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-image {
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-  }
-
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-form {
-    width: 100%;
-  }
-
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.4;
 }
