@@ -296,7 +296,8 @@ footer {
   background: #a84380;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
+
 .header {
   padding: 10px 0;
 }
@@ -329,4 +330,5 @@ footer {
 .hero-content p {
   font-size: 18px;
   line-height: 1.4;
+}
 }
