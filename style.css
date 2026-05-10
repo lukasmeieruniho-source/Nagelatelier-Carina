@@ -295,3 +295,68 @@ footer {
 .contact-form button:hover {
   background: #a84380;
 }
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .logo img {
+    height: 120px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .hero {
+    height: 80vh;
+    padding: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+}
